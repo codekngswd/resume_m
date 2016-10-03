@@ -1,0 +1,52 @@
+.ui-button {
+	font-size: 5vw;
+}
+
+.ui-icon-git:after {
+	background-image: url("images/test_tube.png");
+	width: 6vw;
+	height: 10vw;
+}
+
+.ui-icon-social:after {
+	background-image: url("images/globe.png");
+	width: 6vw;
+	height: 10vw;
+}
+
+.ui-icon-email:after {
+	background-image: url("images/bank.png");
+	width: 6vw;
+	height: 10vw;
+}
+
+.ui-icon-about:after {
+	background-image: url("images/atom.png");
+	width: 6vw;
+	height: 10vw;
+}
+
+td {
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+li {
+	font-size: 5vw;
+}
+
+p {
+	text-align: center;
+	font-size: 8vw;
+	white-space: normal;
+	padding: 0vw 0vw 0vw 0vw;
+}
+
+h1 {
+	font-size: 5vw;
+}
+
+article {
+	font-size: 5vw;
+}
+

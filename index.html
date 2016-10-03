@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<!-- LeQuan Ly 
+
+http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
+
+-->
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<title>Resume</title>
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script type="text/javascript" src="js/contactScript.js"></script>
+		<script type="text/javascript" src="js/rlvntexpScript.js"></script>
+		<script type="text/javascript" src="js/techprofScript.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/tarheel.css">
+	</head>
+	
+	<body>
+	<!-- Home Page -->	
+		<div data-role="page" id="home">
+			
+			<img src="images/header.jpeg" alt="Banner" style="width:180vw; height:40vw;">
+			
+			<section class="ui-button" role="main">
+				<a href="#summary" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ui-corner-all">
+				<span class="category1"></span>
+				</a>
+		
+				<a href="#education" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ui-corner-all">
+					<span class="category2"></span>
+				</a>
+			
+				<a href="#techprof" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ">
+					<span class="category3"></span>
+				</a>
+			
+				<a href="#rlvntexp" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ">
+					<span class="category4"></span>
+				</a>
+			</section>
+			
+	<!-- Button Group -->	
+			<table>
+				<tr>
+					<td><a href="#git" class="ui-btn ui-shadow ui-corner-all ui-icon-git ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+
+					<td><a href="#social" class="ui-btn ui-shadow ui-corner-all ui-icon-social ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+
+					<td><a href="#email" class="ui-btn ui-shadow ui-corner-all ui-icon-email ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+
+					<td><a href="#about" class="ui-btn ui-shadow ui-corner-all ui-icon-about ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+				</tr>
+			</table>
+		</div>
+
+	<!-- Summary of Skills & Experience Page -->
+		<div data-role="page" id="summary" data-theme="a">
+			<div data-role="header">
+			
+			<!-- Header -->
+				<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+				<p> Summary of Skills and Experience </p>
+			</div>
+	
+			<!-- Content -->
+	
+			<!-- Enable ListView -->
+			<ul data-role="listview">
+				<li class="point1"></li>
+				<li class="point2"></li>
+				<li class="point3"></li>
+			</ul>
+		</div>
+
+	<!-- Education Page -->
+		<div data-role="page" id="education" data-theme="a">
+			<div data-role="header">
+
+			<!-- Header -->
+				<a href="#home" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+				<p>Education</p>
+			</div>
+	
+			<!-- Content -->
+			<ul data-role="listview">
+				<li class="point4"></li>
+			</ul>
+		</div>
+
+	<!-- Technical Proficiency Page -->
+		<div data-role="page" id="techprof" data-theme="a">
+			<div data-role="header">
+			
+			<!-- Header -->
+				<a href="#home"  id="exitTechPage" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+				<p>Technical Proficiency</p>
+			</div>
+			
+			<!-- Content -->
+			<div data-role="collapsible" id="languDiv">
+				<h1>Languages</h1>
+				<ul data-role="listview" id="languages">
+					<li class="point5"></li>
+				</ul>
+			</div>
+			
+			<div data-role="collapsible" id="middlewaresDiv">
+				<h1>Middle Wares</h1>
+				<ul data-role="listview" id="middlewares">
+					<li class="point6"></li>
+				</ul>
+			</div>
+			
+			<div data-role="collapsible" id="webdevDiv">
+				<h1>Web Development</h1>
+				<ul data-role="listview" id="webdev">
+					<li class="point7"></li>
+				</ul>
+			</div>
+			
+			<div data-role="collapsible" id="toolsDiv">
+				<h1>Tools</h1>
+				<ul data-role="listview" id="tools">
+					<li class="point8"></li>
+				</ul>
+			</div>
+		</div>
+
+	<!-- Relevant Experience Page -->
+		<div data-role="page" id="rlvntexp" data-theme="a">
+			<div data-role="header">
+			<!-- Header -->
+				<a href="#home" id="exitExpPage" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all"></a>
+				<p>Relevant Experience</p>
+			</div>
+			
+			<!-- Content -->			
+			<div data-role="collapsible" id="jobOneDiv">
+				<h1>iOS Technical Advisor</h1>
+				<!--	<p class="company9"></p> -->
+			
+				<ul data-role="listview" id="jobOne">
+					<li class="point9"></li>
+				</ul>
+			</div>
+			
+			<div data-role="collapsible" id="jobTwoDiv">
+				<h1>Technical Support</h1>
+				
+				<ul data-role="listview" id="jobTwo">
+					<li class="point10"></li>
+				</ul>
+			</div>
+		</div>
+		<!-- End -->
+	</body>
+</html>
