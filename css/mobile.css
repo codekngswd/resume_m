@@ -26,9 +26,14 @@
 	height: 10vw;
 }
 
+table {
+	position: fixed;
+	bottom: 0vw;	
+}
+
 td {
 	padding-left: 10vw;
-	padding-right: 10vw;
+	padding-right: 5vw;
 }
 
 li {
