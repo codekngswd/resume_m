@@ -26,14 +26,22 @@
 	height: 10vw;
 }
 
+img {
+	width: 100%;
+}
+
+section {
+	padding-top: 3vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
 table {
-	position: fixed;
-	bottom: 0vw;	
+	padding-top: 5vw;
 }
 
 td {
-	padding-left: 10vw;
-	padding-right: 5vw;
+	padding-left: 12vw;
 }
 
 li {
@@ -54,4 +62,3 @@ h1 {
 article {
 	font-size: 5vw;
 }
-
