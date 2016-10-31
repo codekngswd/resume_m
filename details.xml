@@ -1,23 +1,19 @@
 <?xml version="1.0"?>
 <details title ="Resume">
-	<category title="Skills and Experience">
+	<category title="About">
 		<point>Keen to the business needs ensuring system integrity and performance</point>
 		<point>Able to think quickly and efficiently when performing problem-solving tasks within changing conditions</point>
 		<point>Strong team player with outstanding interpersonal skills and </point>
 	</category>
 	
-	<category title="Education">
-		<point>Ontario College Diploma - Computer Programmer</point>
-	</category>
-	
-	<category title="Technical Proficiency">
+	<category title="Technical">
 		<point title="Languages">Java</point>
 		<point title="Middle Wares"> Java Servlets, Java Script, Java Beans</point>
 		<point title="Web Development"> HTML5, CSS3, JQuery</point>
-		<point title="Tools"> Android Studio, NotePad++, Eclipse Kepler</point>
+		<point title="Tools"> Android Studio, NotePad++, Eclipse</point>
 	</category>
 	
-	<category title="Experience">
+	<category title="History">
 		<point title="iOS Technical Advisor" company="Apple" city="Hamilton">My current role requires providing prompt, reliable, and accurate information to customers while maintaining composure and effective communication. Adjusting to the pace and technical level of the customer ensures the highest level of quality support.</point>
 		<point title="Technical Support" company="EMD Serono" city="Mississauga">Assisted the company transition from Blackberry to Apple mobile devices. This included implementing user accounts, resolving hardware and software issues, and installing and configuring applications on iPhones and iPads.</point>
 	</category>
