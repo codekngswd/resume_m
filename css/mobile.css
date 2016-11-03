@@ -2,30 +2,6 @@
 	font-size: 5vw;
 }
 
-.ui-icon-git:after {
-	background-image: url("images/test_tube.png");
-	width: 6vw;
-	height: 10vw;
-}
-
-.ui-icon-social:after {
-	background-image: url("images/globe.png");
-	width: 6vw;
-	height: 10vw;
-}
-
-.ui-icon-email:after {
-	background-image: url("images/bank.png");
-	width: 6vw;
-	height: 10vw;
-}
-
-.ui-icon-about:after {
-	background-image: url("images/atom.png");
-	width: 6vw;
-	height: 10vw;
-}
-
 img {
 	width: 100%;
 }

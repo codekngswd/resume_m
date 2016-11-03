@@ -7,7 +7,7 @@ http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
 <html>
 	<head>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-		<title>Resume</title>
+		<title>Kingswood</title>
 		
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.mobile.js"></script>
@@ -24,19 +24,19 @@ http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
 			<img src="images/header.jpg" alt="Banner">
 			
 			<section>
-				<a href="#summary" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ui-corner-all">
+				<a href="#summary" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ui-corner-all">
 					<span class="category1"></span>
-				</a>
-			</section>
-						
-			<section>
-				<a href="#techprof" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ">
-					<span class="category2"></span>
 				</a>
 			</section>
 			
 			<section>
-				<a href="#rlvntexp" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow ">
+				<a href="#rlvntexp" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ">
+					<span class="category2"></span>
+				</a>
+			</section>
+						
+			<section>
+				<a href="#techprof" class="ui-btn ui-icon-carat-r ui-btn-icon-right ui-shadow ">
 					<span class="category3"></span>
 				</a>
 			</section>
@@ -44,13 +44,13 @@ http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
 			<!-- Button Group -->	
 			<table>
 				<tr>
-					<td><a href="#git" class="ui-btn ui-shadow ui-corner-all ui-icon-git ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+					<td><a href="http://github.com/kngswd" target="blank" class="ui-btn ui-shadow ui-corner-all ui-icon-cloud ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
 
-					<td><a href="#social" class="ui-btn ui-shadow ui-corner-all ui-icon-social ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+					<td><a href="http://www.instagram.com/kngswd" target="blank" class="ui-btn ui-shadow ui-corner-all ui-icon-camera ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
 
-					<td><a href="#email" class="ui-btn ui-shadow ui-corner-all ui-icon-email ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+					<td><a href="#email" class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
 
-					<td><a href="#about" class="ui-btn ui-shadow ui-corner-all ui-icon-about ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
+					<td><a href="#about" class="ui-btn ui-shadow ui-corner-all ui-icon-user ui-btn-icon-notext ui-btn-b ut-btn-inline" data-transition="pop"></a></td>
 				</tr>
 			</table>
 		</div>
@@ -73,6 +73,31 @@ http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
 			</ul>
 		</div>
 
+	<!-- Experience Page -->
+		<div data-role="page" id="rlvntexp" data-theme="a">
+			<div data-role="header">
+			<!-- Header -->
+				<p>History</p>
+			</div>
+			
+			<!-- Content -->			
+			<div data-role="collapsible" data-collapsed="false" id="jobOneDiv">
+				<h1>iOS Technical Advisor</h1>	
+				
+				<ul data-role="listview" id="jobOne">
+					<li class="point8"></li>
+				</ul>
+			</div>
+			
+			<div data-role="collapsible" data-collapsed="false" id="jobTwoDiv">
+				<h1>Technical Support</h1>
+				
+				<ul data-role="listview" id="jobTwo">
+					<li class="point9"></li>
+				</ul>
+			</div>
+		</div>
+		
 	<!-- Technical Page -->
 		<div data-role="page" id="techprof" data-theme="a">
 			<div data-role="header">
@@ -111,30 +136,6 @@ http://www.mobile.sheridanc.on.ca/~lyleq/syst24444/test/index.html
 			</div>
 		</div>
 
-	<!-- Experience Page -->
-		<div data-role="page" id="rlvntexp" data-theme="a">
-			<div data-role="header">
-			<!-- Header -->
-				<p> History </p>
-			</div>
-			
-			<!-- Content -->			
-			<div data-role="collapsible" data-collapsed="false" id="jobOneDiv">
-				<h1>iOS Technical Advisor</h1>	
-				
-				<ul data-role="listview" id="jobOne">
-					<li class="point9"></li>
-				</ul>
-			</div>
-			
-			<div data-role="collapsible" data-collapsed="false" id="jobTwoDiv">
-				<h1>Technical Support</h1>
-				
-				<ul data-role="listview" id="jobTwo">
-					<li class="point9"></li>
-				</ul>
-			</div>
-		</div>
-		<!-- End -->
+	<!-- End -->
 	</body>
 </html>
