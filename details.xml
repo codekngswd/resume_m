@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <details title = "Resume">
-	<category title="About">
+	<category title="Skills">
 		<point>Keen to the business needs ensuring system integrity and performance</point>
 		<point>Able to think quickly and efficiently when performing problem-solving tasks within changing conditions</point>
 		<point>Strong team player with outstanding interpersonal skills and excellent work ethics</point>
@@ -16,5 +16,12 @@
 		<point>Java Servlets, Java Script, Java Beans</point>
 		<point>HTML5, CSS3, JQuery</point>
 		<point>Android Studio, Eclipse, NotePad++</point>
+	</category>
+	
+	<category title="About">
+		<point>This website is one project amongst many to come that will form a portfolio, highlighting mobile website design to java application development. Focus on the skeleton that holds the content together. The interface has been built on a combination of HTML and JQuery, designed for simplicity and a seamless user experience.
+		
+		kngswd (kingswood) is the beginning of my career in computer science. Company, brand, logo.
+		</point>
 	</category>
 </details>

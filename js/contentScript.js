@@ -1,3 +1,18 @@
+var width = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var height = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+$(window).load(function(){
+	if (width > 414) {
+		window.alert("Mobile Devices Only.");
+		window.location = "alternate.html";
+	}
+});
+
 $(document).on("pagebeforeshow", "#home", function() {
 	$.ajax({
 		type: "POST",
@@ -19,14 +34,14 @@ function listDetails(xml) {
 	});
 };
 
-$(document).on("pagecreate", "#summary", function() {
+$(document).on("pagecreate", "#skills", function() {
 	$("#cg-summary").html("");
 	$.ajax({
 		type: "POST",
 		url: "details.xml",
 		dataType: "xml",
 		success: function(xml) {
-			altParseXML(xml, "summary");
+			altParseXML(xml, "skills");
 		},
 		error: function(e) {
 			alert(e.status);
@@ -72,6 +87,21 @@ $(document).on("pagecreate", "#rlvntexp", function() {
 		dataType: "xml",
 		success: function(xml) {
 			altParseXML (xml, "rlvntexp");
+		},
+		error: function(e) {
+			alert(e.status);
+		}
+	});
+});
+
+$(document).on("pagecreate", "#about", function() {
+	$("#eg-about").html("");
+	$.ajax({
+		type: "POST",
+		url: "details.xml",
+		dataType: "xml",
+		success: function(xml) {
+			altParseXML (xml, "about");
 		},
 		error: function(e) {
 			alert(e.status);
