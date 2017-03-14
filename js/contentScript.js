@@ -64,7 +64,7 @@ $(document).on("pagecreate", "#education", function() {
 	});
 });
 
-$(document).on("pagecreate", "#techprof", function() {
+$(document).on("pagecreate", "#techprof", function() {	
 	$("#eg-techprof").html("");
 	$.ajax({
 		type: "POST",
