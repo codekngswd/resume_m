@@ -1,0 +1,137 @@
+/* 5 
+	Landscape
+*/
+@media screen and (min-width: 568px) {
+	.ui-btn {  
+		font-size: 3vw !important; 
+	}
+
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 3vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		padding-top: 5vw;
+	}
+
+	td {
+		padding-left: 6vw;
+	}
+
+	li {
+		font-size: 3vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 6vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 1.5vw;
+	}
+
+	article {
+		font-size: 1.5vw;
+	}
+}
+
+/* 6 
+	Landscape
+*/
+@media screen and (min-width: 667px) {
+	.ui-btn {  
+		font-size: 4vw !important; 
+	}
+
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 3vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		padding-top: 5vw;
+	}
+
+	td {
+		padding-left: 6vw;
+	}
+
+	li {
+		font-size: 3vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 6vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 3vw;
+	}
+
+	article {
+		font-size: 3vw;
+	}
+}
+
+/* 6 Plus
+	Landscape
+*/
+@media screen and (min-width: 736px) {
+	.ui-btn {  
+		font-size: 4vw !important; 
+	}
+
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 3vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		padding-top: 5vw;
+	}
+
+	td {
+		padding-left: 6vw;
+	}
+
+	li {
+		font-size: 4vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 6vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 3vw;
+	}
+
+	article {
+		font-size: 3vw;
+	}
+}

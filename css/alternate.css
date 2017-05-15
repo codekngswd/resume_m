@@ -1,0 +1,17 @@
+/* Alternate page when attempting to view on screen 
+larger than mobile devices (except tablets, smartphones only) */
+
+body {
+	height: 10em;
+	position: relative;
+}
+
+p {
+	margin: 0;
+	font-size: 3vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}

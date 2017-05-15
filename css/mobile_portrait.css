@@ -1,0 +1,217 @@
+/* 5 
+	Portrait
+*/
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.ui-btn-text {  
+		font-size: 5vw !important; 
+	}
+	
+	.ui-icon-github:after {
+		background-image: url("../images/icons/github.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-instagram:after {
+		background-image: url("../images/icons/instagram.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-email:after {
+		background-image: url("../images/icons/mail.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-paper:after {
+		background-image: url("../images/icons/paper.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-avatar:after {
+		background-image: url("../images/icons/avatar.png");
+		background-size: 16px 16px;
+	}
+	
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 3vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		padding-top: 4vw;
+		margin: 0 auto;
+		width: 12vw;
+	}
+
+	td {
+		padding: 4vw;
+	}
+
+	li {
+		font-size: 5vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 8vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 5vw;
+	}
+
+	article {
+		font-size: 5vw;
+	}
+}
+
+/* 6 
+	Portrait
+*/
+@media screen and (min-width: 360px) and (max-width: 667px) {
+	.ui-btn {  
+		font-size: 5vw !important; 
+	}
+	
+	.ui-icon-github:after {
+		background-image: url("../images/icons/github.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-instagram:after {
+		background-image: url("../images/icons/instagram.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-email:after {
+		background-image: url("../images/icons/mail.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-paper:after {
+		background-image: url("../images/icons/paper.png");
+		background-size: 16px 16px;
+	}
+	
+	.ui-icon-avatar:after {
+		background-image: url("../images/icons/avatar.png");
+		background-size: 16px 16px;
+	}
+	
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 5vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		/* padding-top: 7vw; */
+		margin: 0 auto;
+		width: 10vw;
+	}
+
+	td {
+		padding: 4vw;
+	}
+
+	li {
+		font-size: 5vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 8vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 5vw;
+	}
+
+	article {
+		font-size: 5vw;
+	}
+}
+
+/* 6 Plus 
+	Portrait
+*/
+@media screen and (min-width: 414px) and (max-width: 736px) {
+	.ui-btn {  
+		font-size: 6vw !important; 
+	}
+	
+	.ui-icon-github:after {
+		background-image: url("../images/icons/github.png");
+		background-size: 18px 18px;
+	}
+	
+	.ui-icon-instagram:after {
+		background-image: url("../images/icons/instagram.png");
+		background-size: 18px 18px;
+	}
+	
+	.ui-icon-email:after {
+		background-image: url("../images/icons/mail.png");
+		background-size: 18px 18px;
+	}
+	
+	.ui-icon-paper:after {
+		background-image: url("../images/icons/paper.png");
+		background-size: 18px 18px;
+	}
+	
+	.ui-icon-avatar:after {
+		background-image: url("../images/icons/avatar.png");
+		background-size: 18px 18px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	section {
+		padding-top: 7vw;
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	table {
+		padding-top: 10vw;
+		margin: 0 auto;
+	}
+
+	td {
+		padding: 4vw;
+	}
+
+	li {
+		font-size: 6vw;
+	}
+
+	p {
+		text-align: center;
+		font-size: 9vw;
+		white-space: normal;
+		padding: 0vw 0vw 0vw 0vw;
+	}
+
+	h1 {
+		font-size: 6vw;
+	}
+
+	article {
+		font-size: 6vw;
+	}
+}

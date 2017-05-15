@@ -1,17 +1,33 @@
-var width = window.innerWidth
-|| document.documentElement.clientWidth
-|| document.body.clientWidth;
+$(window).bind('load', function(){
+	var width = Math.max (document.documentElement.clientWidth, window.innerWidth);
+	var height = Math.max (document.documentElement.clientHeight, window.innerHeight);
 
-var height = window.innerHeight
-|| document.documentElement.clientHeight
-|| document.body.clientHeight;
-
-$(window).load(function(){
-	if (width > 414) {
-		window.alert("Mobile Devices Only.");
-		window.location = "alternate.html";
+	if (width > 414 && height > 768) {
+		window.location = "/alternate.html";	
 	}
 });
+
+function listDetails(xml) {
+	var  n=1;
+	
+	$(xml).find("category").each(function() {
+		$(".category" + n).text($(this).attr("title"));
+		n++;
+	});
+};
+
+
+function altParseXML (xml) {
+	var x=1;
+	
+	$(xml).find("point").each(function() {
+	
+		if (".point" + x) {
+			$(".point" + x).text($(this).text());
+		}
+		x++;
+	});
+};
 
 $(document).on("pagebeforeshow", "#home", function() {
 	$.ajax({
@@ -24,15 +40,6 @@ $(document).on("pagebeforeshow", "#home", function() {
 		}
 	});
 });
-
-function listDetails(xml) {
-	var  n=1;
-	
-	$(xml).find("category").each(function() {
-		$(".category" + n).text($(this).attr("title"));
-		n++;
-	});
-};
 
 $(document).on("pagecreate", "#skills", function() {
 	$("#cg-summary").html("");
@@ -108,15 +115,3 @@ $(document).on("pagecreate", "#about", function() {
 		}
 	});
 });
-
-function altParseXML (xml) {
-	var x=1;
-	
-	$(xml).find("point").each(function() {
-	
-		if (".point" + x) {
-			$(".point" + x).text($(this).text());
-		}
-		x++;
-	});
-};
